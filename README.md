@@ -12,7 +12,7 @@ Dieses Projekt zielt darauf ab, Immobilienpreise in Milwaukee mithilfe von Machi
 - **Identifikation von Einflussfaktoren**: Analyse der wichtigsten Variablen, die den Immobilienpreis beeinflussen.
 - **Bereitstellung einer interaktiven Anwendung**: Entwicklung einer Dash-Anwendung zur Visualisierung der Vorhersagen.
 
-# Daten und Methodik
+## Daten und Methodik
 ### Datensatz
 - **Quelle**: „Property Sales“ von Milwaukee (2023).
 - **Umfang**: 5831 Beobachtungen mit 20 Variablen (numerisch und kategorial).
