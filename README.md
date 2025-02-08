@@ -38,17 +38,13 @@ Dieses Projekt zielt darauf ab, Immobilienpreise in Milwaukee mithilfe von Machi
    ```bash
    git clone https://github.com/Chris2610/houseprice.git
 
-2. Installiere die erforderlichen Python-Bibliotheken:
-    ```bash
-    pip install -r requirements.txt
-
-3. Erstellen einer Environment mit Conda. Hierzu Datei requirements-py3.11-ads-ml.txt verwenden.
+2. Erstellen einer Environment mit Conda. Hierzu Datei requirements-py3.11-ads-ml.txt verwenden.
     ```bash
     conda create -n ads-ml python=3.11 -y
     conda activate ads-ml
     pip install -r requirements-py3.11-ads-ml.txt
     pip install -e .
 
-4. Führe das Jupyter Notebook aus:
-    ```bash
-    jupyter notebook immobilienpreisvorhersage.ipynb
+3. Verwenden des Datensatz im Repository in den Variablen **eda_file_path** und **model_file_path**
+  
+4. Ausführen des Notebooks in einer IDE wie z.B. Visual Studio Code
